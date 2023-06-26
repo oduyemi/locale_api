@@ -29,8 +29,8 @@ export const Banner = () => {
                             </form>
                     </div>
 
-                    <div className="general mt-5 flex items-center justify-center shadow-lg">
-                        <div className="generalChild mx-auto">
+                    <div className="general mt-5 flex items-center justify-between shadow-lg mx-auto">
+                        <div className="generalChild">
                             <h3 className="text-center text-3xl font-semibold">Get All Regions</h3>
                             <p className="text-center">Retrieve all regions in Nigeria</p>
                             <div className="text-center">
@@ -40,7 +40,7 @@ export const Banner = () => {
                             </div>
                         </div>
 
-                        <div className="generalChild">
+                        <div className="generalChild states">
                             <h3 className="text-center text-3xl font-semibold">Get All States</h3>
                             <p className="text-center">Retrieve all states in Nigeria</p>
                             <div className="text-center">
