@@ -11,7 +11,7 @@ export const RegisterForm = () => {
                 <h1 className="text-3xl font-semibold text-center text-lightblu uppercase">
                     Register
                 </h1>
-                <form className="mt-6">
+                <form className="mt-4">
                     <div className="mb-2">
                         <label
                             htmlFor="email"
@@ -49,7 +49,7 @@ export const RegisterForm = () => {
                         />
                     </div>
                    
-                    <div className="mt-6">
+                    <div className="mt-4">
                         <Button className="w-full px-4 py-2 tracking-wide">
                             Register
                         </Button>

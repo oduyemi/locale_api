@@ -11,7 +11,7 @@ export const LoginForm = () => {
                 <h1 className="text-3xl font-semibold text-center text-lightblu uppercase">
                     Sign in
                 </h1>
-                <form className="mt-6">
+                <form className="mt-4">
                     <div className="mb-2">
                         <label
                             htmlFor="email"

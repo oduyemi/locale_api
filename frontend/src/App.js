@@ -9,6 +9,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import GenerateApiPage from "./pages/GenerateApiPage";
+import { Footer } from "./components/Footer";
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route exact path="/login" element={<Login />}></Route>
           <Route exact path="/register" element={<Register />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

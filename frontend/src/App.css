@@ -38,7 +38,7 @@ body{
 }
 
 .formCard{
-  margin-top: -7%;
+  margin-top: -10.5%;
 }
 
 .general{
@@ -77,6 +77,11 @@ body{
   margin-left: -6% !important;
 }
 
+footer{
+  position:fixed;
+  bottom: 0;
+  width:100%
+}
 
 
 
@@ -96,7 +101,10 @@ body{
   .bannerBox{
     width: auto;
   }
+  
+}
 
+@media screen and (max-width: 900px){
   body{
     overflow-y: scroll;
   }
@@ -104,5 +112,4 @@ body{
   .App{
     height: auto;
   }
-  
 }
