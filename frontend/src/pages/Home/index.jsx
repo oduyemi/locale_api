@@ -1,10 +1,10 @@
-import { Banner} from "../../components/Banner";
+import { HomePage} from "../../components/HomePage";
 
 
 
 const Home = () => {
     return(
-        <Banner />
+        <HomePage />
     )
 }
 

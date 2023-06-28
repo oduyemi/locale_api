@@ -25,14 +25,14 @@ body{
 
 .bannerBox{
   height:50px;
-  width:320px;
+  width:300px;
   border: 1px solid #FFB703;
   border-radius: 12px;
 }
 
 .bannerparent{
   position: relative;
-  border: 2px solid #FFB703;
+  border: 1px solid gray;
   left:24.5%;
   border-radius: 12px;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .general{
-  height:187px;
+  height:50vh;
   border: 1px solid gray;
   width:80%
 }
@@ -51,17 +51,27 @@ body{
   width:30%;
 }
 
+.generalChild p{
+  width:inherit;
+  margin: auto;
+}
+
+.apiGen{
+  position: relative;
+  left: 40%;
+}
+
 /* .states{
   margin-left: -14%;
 } */
 
-.howImg{
+/* .howImg{
   margin-top: -6%;
-}
+} */
 
-.abtImg{
+/* .abtImg{
   margin-top: -7%;
-}
+} */
 
 .searchQuery{
   margin-left: -6% !important;
@@ -86,4 +96,13 @@ body{
   .bannerBox{
     width: auto;
   }
+
+  body{
+    overflow-y: scroll;
+  }
+
+  .App{
+    height: auto;
+  }
+  
 }
